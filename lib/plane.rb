@@ -1,8 +1,8 @@
 require_relative "airport"
 
 class Plane
-
-  def initialize
+  DEFAULT_NAME = 'Planey McPlaneFace'
+  def initialize(name=DEFAULT_NAME)
     @flying = true
   end
 

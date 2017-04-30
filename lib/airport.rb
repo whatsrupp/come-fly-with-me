@@ -5,9 +5,11 @@ class Airport
   include Weather
 
   DEFAULT_CAPACITY = 20
+  DEFAULT_NAME = 'Gatwick'
 
   attr_reader :landed_planes
-  def initialize(capacity = DEFAULT_CAPACITY)
+  def initialize(capacity = DEFAULT_CAPACITY, name = DEFAULT_NAME)
+    @name = name
     @landed_planes = []
     @capacity = capacity
   end

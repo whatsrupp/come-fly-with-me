@@ -2,14 +2,14 @@
 
 Love comedy sketches writted by [Matt Lucas and David Walliams](http://www.imdb.com/title/tt1749004/)?
 
-Love badly coded first solo projects? 
+Love badly coded first solo projects?
 Then this is the repository for you.
 
 I'm quite fond of this one, I gave the tests and code a refactor quite recently and it doesn't look nearly as bad as it once did.
 The reason for the lack of commits is that this project was migrated from a fork so that I can get green commit squares if I improve it in the future.
 
 ## Prepare for take off
-### (Read: How do I use this app)
+### (Read: How do I use this app?)
 #### 1) Set up your developer environment
 First off, it's assumed that your chassis has been rigged out with all the basic developer tools. If it isn't, [this](http://www.preparetocode.io/) is probably a good place to start
 Also, you'll want to have ruby installed. [This](https://www.ruby-lang.org/en/documentation/installation/) might help out.
@@ -47,7 +47,7 @@ rspec
 ```
 You should see a comforting amount of green lines (or in my case, a sort of sickening off green on a dark background)
 
-![alt text](/rspec_tests.png 'RSPEC build passing')
+![alt text](/resources/rspec_tests.png 'RSPEC build passing')
 
 ### User Stories
 If it's of any interest, the minimum viable product of this app was designed using the following user stories:
@@ -77,4 +77,4 @@ As the system designer
 So that the software can be used for many different airports
 I would like a default airport capacity that can be overridden as appropriate
 ```
-That's all there is to say about this app really, had a lot of fun putting it together. 
+That's all there is to say about this app really, had a lot of fun putting it together.
