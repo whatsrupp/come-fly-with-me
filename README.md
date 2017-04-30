@@ -1,4 +1,4 @@
-# Come Fly With Me 
+# Come Fly With Me ![alt text](https://travis-ci.org/whatsrupp/come-fly-with-me.svg?branch=master 'travis build status')
 
 Love comedy sketches writted by [Matt Lucas and David Walliams](http://www.imdb.com/title/tt1749004/)?
 
