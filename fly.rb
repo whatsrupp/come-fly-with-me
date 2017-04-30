@@ -22,11 +22,15 @@ def add_plane
   @flying_planes << plane
 end
 
+def show_flying_planes
+  @flying_planes.each_with_index {|plane, i| p "#{i+1}) #{plane.name}"}
+end
+
 
 def main_menu_switch(user_input)
   case user_input
     when 1
-
+      show_flying_planes
     when 2
 
     when 3

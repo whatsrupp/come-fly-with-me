@@ -2,8 +2,11 @@ require_relative "airport"
 
 class Plane
   DEFAULT_NAME = 'Planey McPlaneFace'
+  attr_reader :name
+  
   def initialize(name=DEFAULT_NAME)
     @flying = true
+    @name = name
   end
 
   def flying?
