@@ -35,7 +35,7 @@ pry
 ```
 and then initialize the programme
 ```
-fly
+require './fly.rb'
 ```
 the interface from there on out should guide you through what it can do!
 
@@ -77,4 +77,5 @@ As the system designer
 So that the software can be used for many different airports
 I would like a default airport capacity that can be overridden as appropriate
 ```
-That's all there is to say about this app really, had a lot of fun putting it together.
+That's all there is to say about this app really! Had a lot of fun putting it together, and if you've made it this far thanks for checking in!
+Nick 
