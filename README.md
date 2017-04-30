@@ -47,8 +47,6 @@ rspec
 ```
 You should see a comforting amount of green lines (or in my case, a sort of sickening off green on a dark background)
 
-![alt text](/resources/rspec_tests.png 'RSPEC build passing')
-
 ### User Stories
 If it's of any interest, the minimum viable product of this app was designed using the following user stories:
 
