@@ -31,6 +31,7 @@ describe Airport do
 
     it "stores plane into planes_in_airport on landing" do
       plane = double(:plane, flying?: false, land_at: nil)
+      allow(airport).to receive(:stormy?).and_return(false)
       airport.commence_landing(plane)
       expect(airport.landed_planes).to eq([plane])
     end
